@@ -1,0 +1,13 @@
+@import url('header.css');
+
+
+:root{
+    --color-primary-1: rgb(255, 241, 247);
+    --color-primary-2: rgb(43, 1, 30);
+    --color-primary-3: rgb(255, 215, 242);
+
+}
+
+body{
+    background-color: var(--color-primary-1);
+}
