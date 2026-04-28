@@ -2,12 +2,40 @@
 
 
 :root{
-    --color-primary-1: rgb(255, 241, 247);
+    --color-primary-1: rgb(255, 255, 255);
     --color-primary-2: rgb(43, 1, 30);
     --color-primary-3: rgb(255, 215, 242);
-
+    --color-primary-4: rgb(119, 0, 87);
 }
 
 body{
     background-color: var(--color-primary-1);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    border-color: var(--color-primary-4);
+    color: var(--color-primary-2);
+    background-color: var(--color-primary-3);
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+}
+.teg-p{
+    display: flex;
+    margin-top: 50px;
+}
+input{
+    border-color: var(--color-primary-4);
+    background-color: var(--color-primary-3);
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
 }
